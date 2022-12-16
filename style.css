@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+#thanks {
+    display: none;
+}
+
+/* #rating {
+    display: none;
+} */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #121417;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: #252d37;
+}
+
+.content {
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    background-color: #384354;
+    border-radius: 50%;
+    margin-bottom: 30px ;
+    position: relative;
+}
+
+.image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text h2 {
+    color: #FFF;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.text p {
+    font-size: 16px;
+    color: #959eac;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.numbers {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers button {
+    height: 45px;
+    width:  45px;
+    background-color: #384354;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    color: #959eac;
+    border: none;
+}
+
+.content .submit {
+    border: none;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    background-color: #fb7413;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: #fb7413;
+    cursor: pointer;
+}
+
+ .numbers button:hover  {
+    background-color: #959eac;
+    color: #fff;
+    cursor: pointer;
+}
+
+.result {
+    width: fit-content;
+    padding: 5px 10px ;
+    background-color: #384354;
+    border-radius: 50px;
+    color: #fb7413;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.img {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#thanks .text {
+    margin-top: 30px;
+}
+
+#thanks .text h2 {
+    /* margin-left: 50px; */
+    text-align: center;
+}
+
+@media only screen and ( max-width: 450px ) {
+    .card {
+        width: 85%;
+        height: 65%;
+    }
+
+}
