@@ -13,7 +13,6 @@ let sco
 
 btn1.addEventListener('click',()=>{
   sco = 1
-  btn1.style.color = "#fff" 
   btn1.style.backgroundColor = "#fb7413"
   btn2.style.backgroundColor = "#384354"
   btn3.style.backgroundColor = "#384354"
@@ -25,7 +24,6 @@ btn1.addEventListener('click',()=>{
 
 btn2.addEventListener('click',()=>{
   sco = 2
-  btn2.style.color = "#fff" 
   btn2.style.backgroundColor = "#fb7413"
   btn1.style.backgroundColor = "#384354"
   btn3.style.backgroundColor = "#384354"
@@ -36,7 +34,6 @@ btn2.addEventListener('click',()=>{
 
 btn3.addEventListener('click',()=>{
   sco = 3
-  btn3.style.color = "#fff" 
   btn3.style.backgroundColor = "#fb7413"
   btn1.style.backgroundColor = "#384354"
   btn2.style.backgroundColor = "#384354"
@@ -48,7 +45,6 @@ btn3.addEventListener('click',()=>{
 
 btn4.addEventListener('click',()=>{
   sco = 4
-  btn4.style.color = "#fff" 
   btn4.style.backgroundColor = "#fb7413"
   btn1.style.backgroundColor = "#384354"
   btn2.style.backgroundColor = "#384354"
@@ -60,7 +56,6 @@ btn4.addEventListener('click',()=>{
 
 btn5.addEventListener('click',()=>{
   sco = 5
-  btn5.style.color = "#fff" 
   btn5.style.backgroundColor = "#fb7413"
   btn1.style.backgroundColor = "#384354"
   btn2.style.backgroundColor = "#384354"
